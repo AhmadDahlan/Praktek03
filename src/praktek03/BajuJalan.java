@@ -6,5 +6,14 @@ public class BajuJalan extends Baju{
     void throttle(){
         System.out.println("Larangg....");
     }
+
+    public String getJenisbaju() {
+        return jenisbaju;
+    }
+
+    public void setJenisbaju(String jenisbaju) {
+        this.jenisbaju = jenisbaju;
+    }
+    
     
 }
