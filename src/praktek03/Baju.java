@@ -1,9 +1,9 @@
 package praktek03;
 
 public class Baju {
-    String merk;
-    String warna;
-    double harga;
+    private String merk;
+    private String warna;
+    private double harga;
     
     void pelindungtubuh(){
         System.out.println("Merk \t: "+merk+"\n"+
